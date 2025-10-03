@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Disable text selection globally */
+* {
+  @apply select-none;
+}
+
+/* note: if want to apply select text: <div className="select-text">
+ */
+
+ :root {
+  --sidebar-bg: #f3f4f6;        /* Light sidebar background */
+  --sidebar-text: #1f2937;      /* Light sidebar text */
+  --main-bg: #ffffff;            /* Light main background */
+  --main-text: #111827;          /* Light main text */
+  --nav-active-bg: #1e6c80;      /* Light active button */
+  --nav-active-text: #ffffff;    /* Active button text */
+  --nav-hover-bg: #93c5fd;       /* Light hover button */
+}
+
+.dark {
+  --sidebar-bg: #1e293b;         /* Dark sidebar background */
+  --sidebar-text: #e5e7eb;       /* Dark sidebar text */
+  --main-bg: #111827;            /* Dark main background */
+  --main-text: #f9fafb;          /* Dark main text */
+  --nav-active-bg: #1e6c80;     /* Dark active button */
+  --nav-active-text: #ffffff;    /* Active button text */
+  --nav-hover-bg: #3b82f6/30;    /* Dark hover button */
+}

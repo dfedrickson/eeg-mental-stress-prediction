@@ -37,7 +37,7 @@ export default function FileUploadCard({
     formData.append("preprocessing", JSON.stringify(preprocessingOptions));
 
     try {
-      const res = await fetch("http://localhost:8000/predict", {
+      const res = await fetch("http://127.0.0.1:8000/predict", {
         method: "POST",
         body: formData,
       });

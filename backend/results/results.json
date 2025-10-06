@@ -1,0 +1,7 @@
+{
+    "train_accuracy": 1.0,
+    "test_accuracy": 0.8192567567567568,
+    "model_path": "models\\trained_model.pkl",
+    "num_train_samples": 7104,
+    "num_test_samples": 1776
+}
